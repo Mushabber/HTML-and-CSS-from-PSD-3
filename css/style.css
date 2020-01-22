@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.containar{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.containar:before,
+.containar:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.col25{
+	width: 25%;
+	padding:0 15px 0 15px;
+	float: left;
+}
+.col50{
+	width: 50%;
+	padding:0 15px 0 15px;
+	float: left;
+}
+.col33{
+	width: 33.33%;
+	padding:0 15px 0 15px;
+	float: left;
+}
+.col100{
+	width: 100%;
+	padding:0 15px 0 15px;
+	float: left;
+}
+/***********************
+	Common css Start
+************************/
+.m-top-bottom{
+	margin:30px 0;
+}
+.cat-img{
+	position: relative;
+}
+.cat.trips a{
+	background:#d90445;
+}
+.cat.tech a{
+	background:#000;
+}
+.cat.fashion a{
+	background:#8200b2;
+}
+.cat.people a{
+	background:#1a54e7;
+}
+.cat.nature a{
+	background:#58b600;
+}
+.date-author-common a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #b0b0b0;
+	/* why */
+	display: inline-block;
+}
+.date-author-common a:last-child{
+	color: #1a54e7;
+	padding-left: 10px;
+}
+.date-author-common a:first-child{
+	border-right: 2px solid #b0b0b0;
+	padding-right: 10px;	
+}
+/************************
+	Common Css End
+*************************/
+
+/************************
+ 		Header Start
+ ************************/
+.logo{
+ 	float:left;
+ 	background:#1a54e7;
+ 	padding:19px 35px;
+ 	position: relative;
+ 	/* why */
+ 	display: inline-block;
+}
+.logo:before{
+	content: "";
+	position: absolute;
+	background:#1a54e7;
+	top:0;
+	bottom:0;
+	left: -50000px;
+	right: 100%;
+}
+.logo a{
+ 	text-decoration: none;
+ 	font-size: 24px;
+ 	color: #fff;
+ 	/* why */
+ 	display: inline-block;
+}
+.manu{
+	float: right;
+	position: relative;
+}
+.manu ul{
+ 	margin:0;
+ 	padding:0;
+}
+.manu ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	/* why*/
+ 	float: left;
+}
+.manu ul li a{
+	text-decoration: none;
+	display: block;
+	padding:23px 16px;
+	color: #1a54e7;
+}
+.manu ul li.active a{
+	position: relative;
+}
+.manu ul li.active a:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom:0;
+	height: 3px;
+	width: 100%;
+	background:#1a54e7;
+}
+.mob{
+	position: absolute;
+	top: 17px;
+	left: 86%;
+	font-size: 30px;
+	display: none;
+	cursor:pointer;
+}
+
+/************************
+ 		Header End
+ ************************/
+
+/************************
+		Benna Start
+*************************/
+.bennar{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bennar-in{
+	text-align: center;
+	padding:210px 0 310px;
+	position: relative;
+}
+.bennar-in h1{
+	font-size: 48px;
+	color: #ffffff;
+}
+.cat{
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+}
+.cat a{
+	color: #fff;
+	background: #1a54e7;
+	padding:10px 20px;
+	text-decoration: none;
+	font-weight: 700;
+	/* why */
+	display: inline-block;
+}
+.date-author{
+	position: absolute;
+	right: 0;
+	bottom: 53px;
+}
+.date-author a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #b0b0b0;
+	/* why */
+	display: inline-block;
+}
+.date-author a:last-child{
+	color: #1a54e7;
+	padding-left: 10px;
+}
+.date-author a:first-child{
+	border-right: 2px solid #b0b0b0;
+	padding-right: 10px;	
+}
+/*************************
+ 		Benna End
+ *************************/
+
+/***************************
+Especilly Sarvis Area Start
+*****************************/
+.especilly-s{
+	background:#f6f6f6;
+}
+.cat-img img{
+	width: 100%;
+}
+.col50 h4{
+	font-size: 24px;
+	line-height: 36px;
+}
+/*************************
+Especilly Sarvis Area End
+**************************/
+
+/*************************
+	Proin Area Start
+**************************/
+.proin{
+	padding:20px 0 60px;
+}
+.col100{
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding:200px 0 90px;
+	color: #fff;
+	text-align: center;
+}
+.col100 h3{
+	
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+.col100 h5{
+	line-height: 30px;
+	font-family: 'PT Serif', serif;
+		font-weight: 400;
+		font-size: 18px;
+}
+.not-common{
+	position: absolute;
+	right: 30px;
+	bottom: 40px;
+}
+/*************************
+	Proin Area Start
+**************************/
+
+/**************************
+	Newsletter Area Start
+***************************/
+.newsletter{
+	background-image: url(../img/newsletter-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0 130px;
+	text-align: center;
+
+}
+.newsletter-in h3{
+	color: #fff;
+	font-size: 48px;
+	font-weight: 400;
+}
+.newsletter-in p{
+	font-size: 24px;
+	color: #8baeff;
+	font-weight: 400;
+}
+.form input[type="text"]{
+	height: 50px;
+	width: 300px;
+	border:none;
+	border-radius:50px;
+	background:#2c6cff;
+	padding: 0 55px 0 15px;
+	color: #fff;
+	font-size: 18px;
+}
+.form{
+	position: relative;
+	padding-top: 50px;
+}
+.submit input{
+	    position: absolute;
+	    top: 50px;
+	    right: 366px;
+	    height: 50px;
+	    width: 130px;
+	    border-radius: 50px;
+	    border: none;
+	    background:#fff;
+	    color: #1a54e7;
+	    font-size: 18px;
+	    font-weight: 700;
+}
+
+/**************************
+	Newsletter Area End
+***************************/
+
+/**************************
+	Footer Area Start
+***************************/
+.footer-content{
+	padding:80px 0 200px;
+	text-align: center;
+}
+.footer-content p{
+	color: #a7acbc;
+}
+/**************************
+	Footer Area end
+***************************/
+
+
+/************************************
+	Responsive Css Area Start
+*************************************/
+@media(max-width: 767px){
+	.bennar-in h1{
+		font-size: 29px;
+	}
+	.date-author{
+		position: absolute;
+		right: 15px;
+	}
+	.col50{
+		width: 100%;
+	}
+	.col100 h5{
+		font-size: 17px;
+	}
+	.col33{
+		width: 100%;
+	}
+	.form input[type="text"]{
+		padding: 0 136px 0 15px;
+	}
+	.submit input{
+		right: 9px;
+		padding: 0 100px 0 15px;
+		width: 105px;
+	}
+	.footer-content p{
+		font-size: 16px;
+	}
+	.manu{
+		width: 100%;
+		display: none;
+		float: left;
+	}
+	.manu ul li{
+ 		display: block;
+	}
+	.mob{
+		display: block;
+	}
+	.submit input{
+		right: 173px;
+	}
+}
+@media(min-width: 678px)and(max-width: 991px){
+	.submit input{
+		position: absolute;
+		top: 50px;
+		right: 185px;
+	}
+}
+
+
+/************************************
+	Responsive Css Area End
+*************************************/
